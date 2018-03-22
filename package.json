@@ -1,0 +1,27 @@
+{
+  "name": "pingpong-multiplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "paddle.js",
+  "scripts": {
+    "start": "browserify src/main.js -o dist/sketch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kattsushi/pong-onixjs-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kattsushi/pong-onixjs-example/issues"
+  },
+  "homepage": "https://github.com/kattsushi/pong-onixjs-example#readme",
+  "dependencies": {
+    "@onixjs/sdk": "^1.0.0-alpha.4.1",
+    "p5": "^0.6.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.1"
+  }
+}
